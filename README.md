@@ -2,6 +2,12 @@
 
 The idea here is to visualize some voxelwise modeling result on a flatmap. This flatmap is an object that you can click, which then updates a time-course (or any other) figure based on the clicked vertex. This greatly enhances one's ability to quickly iterate, and gain intuition for some dataset. 
 
+### Just look:
+
+https://user-images.githubusercontent.com/436593/132212568-ed9d3333-7e30-4f0f-9090-28abbe230ebd.mov
+
+### Requisite data files:
+
 The required gifti files for the time-courses and fitting results (limited to V1 and V2 for this demo) are in the `data` folder. The pycortex subject that we use here, can be downloaded from figshare, and should be unzipped into your pycortex subject directory, as per here:
 
 ```
