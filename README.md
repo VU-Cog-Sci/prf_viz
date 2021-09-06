@@ -8,7 +8,7 @@ https://user-images.githubusercontent.com/436593/132212568-ed9d3333-7e30-4f0f-90
 
 ### Requisite data files:
 
-The required gifti files for the time-courses and fitting results (limited to V1 and V2 for this demo) are in the `data` folder. The pycortex subject that we use here, can be downloaded from figshare, and should be unzipped into your pycortex subject directory, as per here:
+The required gifti files for the time-courses and fitting results (limited to V1 and V2 for this demo) are in the `data` folder. The pycortex subject that we use here can be downloaded from figshare, and should be unzipped into your pycortex subject directory, as follows (change db directory):
 
 ```
 pycortex_sj_URL = "https://ndownloader.figshare.com/files/25768841"
