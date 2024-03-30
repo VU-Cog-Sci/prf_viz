@@ -18,3 +18,7 @@ pycortex_sj_URL = "https://ndownloader.figshare.com/files/25768841"
 urllib.request.urlretrieve(pycortex_sj_URL, os.path.join('/content/pycortex/db', 'hcp_999999.zip'))
 !unzip -qq /content/pycortex/db/hcp_999999.zip -d /content/pycortex/db/
 ```
+
+### Note for vscode user:
+If you are using the jupyter notebook on vscode, the magic command `%matplotlib notebook` (at the top of the notebook) will not work for you. 
+In this case, please change it to another magic command `%matplotlib widget`.
